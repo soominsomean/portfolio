@@ -1,267 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><!-- 사용자게 보이는 정보 없음, 웹사이트에 관한 정보만 -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- 사용자게 보이는 정보 없음, 웹사이트에 관한 정보만 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soomin's portfolio</title>
-    <meta name="description" content="Portfolio for world-renowned software engineer Soomin">    
-    <meta name="author" content="Soomin">
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software engineer Soomin"
+    />
+    <meta name="author" content="Soomin" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <script src="https://kit.fontawesome.com/9d719aded7.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stypesheet" href="stype.css">
-    <script src="main.js" defer></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/9d719aded7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stypesheet" href="stype.css" />
+  </head>
+  <body>
     <nav id="navbar">
-        <div class="navbar__logo"></div>
-            <i class="fab fa-diaspora"></i>
-            <a href="#">Soomin</a>
-        <ul class="navbar__menu">
-            <li class="navbar__menu__item">Home</li>
-            <li class="navbar__menu__item">About</li>
-            <li class="navbar__menu__item">Skills</li>
-            <li class="navbar__menu__item">My work</li>
-            <li class="navbar__menu__item">Testimonial</li>
-            <li class="navbar__menu__item">Contact</li>
-        </ul>
+      <div class="navbar__logo"></div>
+      <i class="fab fa-diaspora"></i>
+      <a href="#">Soomin</a>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
     </nav>
 
     <!-- Home -->
     <section id="home">
-        <img src="images/profile_pic.jpeg" alt="Ellie's profile photo" class="home__avatar">
-        <h1 class="home__title">Hello, <br /> I am Soomin Kim</h1>
-        <h2 class="home__description">A talented data scientist with front end skills currently residing in the Netherlands</h2>
-        <button class="home__contact">Contact Me :)</button>
+      <img
+        src="images/profile_pic.jpeg"
+        alt="Ellie's profile photo"
+        class="home__avatar"
+      />
+      <h1 class="home__title">
+        Hello, <br />
+        I am Soomin Kim
+      </h1>
+      <h2 class="home__description">
+        A talented data scientist with front end skills currently residing in
+        the Netherlands
+      </h2>
+      <button class="home__contact">Contact Me :)</button>
     </section>
-
 
     <!-- About -->
     <section id="about">
-        <h1>About me</h1>
-        <p> A passionate data scientist with 2 years experience in banking sector with econoemtrics background.
-            Hard working, detail oriented, mixture of Korean and Dutch culture
-        </p>
-        <div class="about__majors">
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fab fa-python"></i>
-                </div>
-                <div class="major__title">Data science</div>
-                <div class="major__description">Fluent in python
-                    <br /> Named Entity Recognition, Classification, Reinforcement Learning
-                </div>
-            </div>
-
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fab fa-r-project"></i>
-                </div>
-                <div class="major__title">Data science</div>
-                <div class="major__description">Fluent in R
-                    <br /> Named Entity Recognition, Classification, Reinforcement Learning
-                </div>
-            </div>
-
-            <div class="major">
-                <div class="major__icon">
-                    <i class="fab fa-html5"></i>
-                </div>
-                <div class="major__title">Front End</div>
-                <div class="major__description">Baby Front End developer
-                    <br /> This portfolio website is my first front end developing project!
-                </div>
-            </div>
+      <h1>About me</h1>
+      <p>
+        A passionate data scientist with 2 years experience in banking sector
+        with econoemtrics background. Hard working, detail oriented, mixture of
+        Korean and Dutch culture
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <div class="major__title">Data science</div>
+          <div class="major__description">
+            Fluent in python <br />
+            Named Entity Recognition, Classification, Reinforcement Learning
+          </div>
         </div>
 
-        <div class="about__jobs">
-            <div class="job">
-                <img src="images/jobs/ing.png" alt="ING" class="job__logo">
-                <p class="job__name">International Talent Program | Analytics Trainee</p>
-                <p class="job__period">2020 April - Present</p>
-            </div>
-            <div class="job">
-                <img src="images/jobs/erasmus.png" alt="Erasmus" class="job__logo">
-                <p class="job__name">MSc.Econometrics</p>
-                <p class="job__period">2017-2019</p>
-            </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-r-project"></i>
+          </div>
+          <div class="major__title">Data science</div>
+          <div class="major__description">
+            Fluent in R <br />
+            Named Entity Recognition, Classification, Reinforcement Learning
+          </div>
         </div>
+
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="major__title">Front End</div>
+          <div class="major__description">
+            Baby Front End developer <br />
+            This portfolio website is my first front end developing project!
+          </div>
+        </div>
+      </div>
+
+      <div class="about__jobs">
+        <div class="job">
+          <img src="images/jobs/ing.png" alt="ING" class="job__logo" />
+          <p class="job__name">
+            International Talent Program | Analytics Trainee
+          </p>
+          <p class="job__period">2020 April - Present</p>
+        </div>
+        <div class="job">
+          <img src="images/jobs/erasmus.png" alt="Erasmus" class="job__logo" />
+          <p class="job__name">MSc.Econometrics</p>
+          <p class="job__period">2017-2019</p>
+        </div>
+      </div>
     </section>
-
 
     <!-- Skills -->
     <section id="skills">
-        <h1>Skills</h1>
-        <h2>Skills & Attribute</h2>
-        <p> Explanation about my skills</p>
+      <h1>Skills</h1>
+      <h2>Skills & Attribute</h2>
+      <p>Explanation about my skills</p>
 
-        <div class="skillset">
-            <div class="skillset__left">
-                <h3 class="skillset_title">Skills</h3>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>Python</span>
-                        <span>99%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>R</span>
-                        <span>99%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value">
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>HTML</span>
-                        <span>99%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value">
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>CSS</span>
-                        <span>99%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value">
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>Java Script</span>
-                        <span>99%</span>
-                    </div>
-                    <div class="skill__bar">
-                        <div class="skill__value">
-                            
-                        </div>
-                    </div>
-                </div>
+      <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset_title">Skills</h3>
+          <div class="skill">
+            <div class="skill_description">
+              <span>Python</span>
+              <span>99%</span>
             </div>
-            <div class="skillset_right">
-                <div class="tools">
-                    <h3 class="skillset_title">Tools</h3>
-                    <ul class="tools__list">
-                        <li class="span">Visual Studio Code</li>
-                        <li class="span">Pycharm</li>
-                        <li class="span">Photoshop</li>
-                    </ul>
-                </div>
-                <div class="etc">
-                    <h3 class="skillset_title">Etc</h3>
-                    <ul class="etc__list">
-                        <li><span>Git</span></li>
-                        <li><span>Scrum</span></li>
-                        <li><span>Math</span></li>
-                    </ul>
-                </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
             </div>
-
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>R</span>
+              <span>99%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>HTML</span>
+              <span>99%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>CSS</span>
+              <span>99%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill_description">
+              <span>Java Script</span>
+              <span>99%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value"></div>
+            </div>
+          </div>
         </div>
+        <div class="skillset_right">
+          <div class="tools">
+            <h3 class="skillset_title">Tools</h3>
+            <ul class="tools__list">
+              <li class="span">Visual Studio Code</li>
+              <li class="span">Pycharm</li>
+              <li class="span">Photoshop</li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset_title">Etc</h3>
+            <ul class="etc__list">
+              <li><span>Git</span></li>
+              <li><span>Scrum</span></li>
+              <li><span>Math</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
-
 
     <!-- Work -->
     <section id="work">
-        <h1>My work</h1>
-        <h3>Projects</h3>
-        <div class="work__catergories">
-            <button class="category__btn">All<span class="category__count">5</span></button>
-            <button class="category__btn">Data Science<span class="category__count">3</span></button>
-            <button class="category__btn">Front End<span class="category__count">2</span></button>
-        </div>
-        <div class="work__projects">
-            <a
-            href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured" 
-            class="project__img"
-            target="blank"
-            >
-                <img src="images/projects/youtube.png" alt="YouTube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Hobby project YouTube</span>
-                </div>
-            </a>
-        </div>
-        <div class="work__projects">
-            <a 
-            href="https://blog.naver.com/kimjane3000" 
-            class="project__img"
-            target="blank"
-            >
-                <img src="images/projects/youtube.png" alt="YouTube">
-                <div class="project__description">
-                    <h3>Blog Site</h3>
-                    <span>Hobby project Blog</span>
-                </div>
-            </a>
-        </div>
-        <div class="work__projects">
-            <a 
-            href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured" 
-            class="project__img"
-            target="blank"
-            >
-                <img src="images/projects/youtube.png" alt="YouTube">
-                <div class="project__description">
-                    <h3>Youtube Site</h3>
-                    <span>Hobby project YouTube</span>
-                </div>
-            </a>
-        </div>
+      <h1>My work</h1>
+      <h3>Projects</h3>
+      <div class="work__catergories">
+        <button class="category__btn">
+          All<span class="category__count">5</span>
+        </button>
+        <button class="category__btn">
+          Data Science<span class="category__count">3</span>
+        </button>
+        <button class="category__btn">
+          Front End<span class="category__count">2</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a
+          href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
+          class="project__img"
+          target="blank"
+        >
+          <img src="images/projects/youtube.png" alt="YouTube" />
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Hobby project YouTube</span>
+          </div>
+        </a>
+      </div>
+      <div class="work__projects">
+        <a
+          href="https://blog.naver.com/kimjane3000"
+          class="project__img"
+          target="blank"
+        >
+          <img src="images/projects/youtube.png" alt="YouTube" />
+          <div class="project__description">
+            <h3>Blog Site</h3>
+            <span>Hobby project Blog</span>
+          </div>
+        </a>
+      </div>
+      <div class="work__projects">
+        <a
+          href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
+          class="project__img"
+          target="blank"
+        >
+          <img src="images/projects/youtube.png" alt="YouTube" />
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Hobby project YouTube</span>
+          </div>
+        </a>
+      </div>
     </section>
 
     <!-- Testimonials -->
     <section id="testimonials">
-        <h1>Testimonials</h1>
-        <h3>See what they say about me</h3>
-        <div class="testimonials">
-            <div class="testimonial">
-                <img src="images/testimonial/people1.jpeg" alt="People" class="testimonial__avatar">
-                <div class="testimnoial__speech-bubble">
-                    <p>Soomin is the best</p>
-                    <p class="name"><a href="">Soomin</a>/ING</p>
-                </div>
-            </div>
-            <div class="testimonial">
-                <img src="images/testimonial/people1.jpeg" alt="People" class="testimonial__avatar">
-                <div class="testimnoial__speech-bubble">
-                    <p>Soomin is the best2</p>
-                    <p class="name"><a href="">Soomin</a>/PwC</p>
-                </div>
-            </div>
+      <h1>Testimonials</h1>
+      <h3>See what they say about me</h3>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img
+            src="images/testimonial/people1.jpeg"
+            alt="People"
+            class="testimonial__avatar"
+          />
+          <div class="testimnoial__speech-bubble">
+            <p>Soomin is the best</p>
+            <p class="name"><a href="">Soomin</a>/ING</p>
+          </div>
         </div>
+        <div class="testimonial">
+          <img
+            src="images/testimonial/people1.jpeg"
+            alt="People"
+            class="testimonial__avatar"
+          />
+          <div class="testimnoial__speech-bubble">
+            <p>Soomin is the best2</p>
+            <p class="name"><a href="">Soomin</a>/PwC</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact -->
     <section id="contact">
-        <h1 class="contact__title">Let's talk</h1>
-        <h2 class="contact__email">soomin.kim3000@gmail.com</h2>
-        <div class="contact__links">
-            <a href="https://github.com/soominsomean">
-                <i class="fa fa-github"></i>
-            </a>
-        </div>
-        <p class="contact__rights">2022 Soomin Kim - All rights reserved</p>
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">soomin.kim3000@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/soominsomean">
+          <i class="fa fa-github"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2022 Soomin Kim - All rights reserved</p>
     </section>
-</body>
+  </body>
 </html>
