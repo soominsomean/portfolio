@@ -25,25 +25,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav id="navbar">
-      <div class="navbar__logo">
-        <i class="fab fa-diaspora"></i>
-        <a href="#">Soomin</a>
-      </div>
-      <div class="navbar__menu">
-        <ul class="navbar__menu">
-          <li class="navbar__menu__item active">Home</li>
-          <li class="navbar__menu__item">About</li>
-          <li class="navbar__menu__item">Skills</li>
-          <li class="navbar__menu__item">My work</li>
-          <li class="navbar__menu__item">Testimonial</li>
-          <li class="navbar__menu__item">Contact</li>
-        </ul>
-      </div>
-    </nav>
-
     <!-- Home -->
     <section id="home">
+      <nav id="navbar">
+        <div class="navbar__logo">
+          <i class="fab fa-diaspora"></i>
+          <a href="#">Soomin</a>
+        </div>
+        <div class="navbar__menu">
+          <ul class="navbar__menu">
+            <li class="navbar__menu__item active">Home</li>
+            <li class="navbar__menu__item">About</li>
+            <li class="navbar__menu__item">Skills</li>
+            <li class="navbar__menu__item">My work</li>
+            <li class="navbar__menu__item">Testimonial</li>
+            <li class="navbar__menu__item">Contact</li>
+          </ul>
+        </div>
+      </nav>
       <img
         src="images/profile_pic2.png"
         alt="Ellie's profile photo"
@@ -57,7 +56,12 @@
         A talented data scientist with front end skills currently residing in
         the Netherlands
       </h2>
-      <button class="home__contact">Contact Me :)</button>
+      <button class="home__contact">
+        <a
+          href="mailto:soomin.kim3000@gmail.com?subject=Hi! I've got a question!"
+          >Contact Me :)</a
+        >
+      </button>
     </section>
 
     <!-- About -->
@@ -202,57 +206,55 @@
 
     <!-- Work -->
     <section id="work" class="section">
-      <h1>My work</h1>
-      <h3>Projects</h3>
-      <div class="work__catergories">
-        <button class="category__btn">
-          All<span class="category__count">5</span>
-        </button>
-        <button class="category__btn">
-          Data Science<span class="category__count">3</span>
-        </button>
-        <button class="category__btn">
-          Front End<span class="category__count">2</span>
-        </button>
-      </div>
-      <div class="work__projects">
-        <a
-          href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
-          class="project__img"
-          target="blank"
-        >
-          <img src="images/projects/youtube.png" alt="YouTube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>Hobby project YouTube</span>
-          </div>
-        </a>
-      </div>
-      <div class="work__projects">
-        <a
-          href="https://blog.naver.com/kimjane3000"
-          class="project__img"
-          target="blank"
-        >
-          <img src="images/projects/youtube.png" alt="YouTube" />
-          <div class="project__description">
-            <h3>Blog Site</h3>
-            <span>Hobby project Blog</span>
-          </div>
-        </a>
-      </div>
-      <div class="work__projects">
-        <a
-          href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
-          class="project__img"
-          target="blank"
-        >
-          <img src="images/projects/youtube.png" alt="YouTube" />
-          <div class="project__description">
-            <h3>Youtube Site</h3>
-            <span>Hobby project YouTube</span>
-          </div>
-        </a>
+      <div class="section__container">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+          <button class="category__btn active">
+            All<span class="category__count">5</span>
+          </button>
+          <button class="category__btn">
+            Data Science<span class="category__count">3</span>
+          </button>
+          <button class="category__btn">
+            Front End<span class="category__count">2</span>
+          </button>
+        </div>
+        <div class="work__projects">
+          <a
+            href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
+            class="project__img"
+            target="blank"
+          >
+            <img src="images/projects/youtube.png" alt="YouTube" />
+            <div class="project__description">
+              <h3>Youtube Site</h3>
+              <span>Hobby project YouTube</span>
+            </div>
+          </a>
+          <a
+            href="https://blog.naver.com/kimjane3000"
+            class="project__img"
+            target="blank"
+          >
+            <img src="images/projects/youtube.png" alt="YouTube" />
+            <div class="project__description">
+              <h3>Blog Site</h3>
+              <span>Hobby project Blog</span>
+            </div>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
+            class="project__img"
+            target="blank"
+          >
+            <img src="images/projects/youtube.png" alt="YouTube" />
+            <div class="project__description">
+              <h3>Youtube Site</h3>
+              <span>Hobby project YouTube</span>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
 
