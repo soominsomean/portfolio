@@ -35,6 +35,7 @@
 
   /* Animation */
   --animation-duration: 275ms;
+  --animation-duration-longer: 300ms;
 }
 
 /* Universal tags */
@@ -105,7 +106,7 @@ p {
   align-items: center;
   color: var(--color-white);
   padding: 5px 20px 0px 20px;
-  transition: all var(--animation-duration) ease-in-out;
+  transition: all var(--animation-duration-longer) ease-in-out;
   z-index: 1;
 }
 

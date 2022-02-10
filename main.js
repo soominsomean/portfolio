@@ -1,12 +1,25 @@
 "use strict";
 
+// // Make navbar trasparent when it is on the top
+// const navbar = document.querySelector("#navbar");
+// const navbarHeight = navbar.getBoundingClientRect().height;
+// document.addEventListener("scroll", () => {
+//   console.log(window.scrollY);
+//   console.log(`navbarHeight: ${navbarHeight}`);
+//   if (window.scrollY > navbarHeight) {
+//     navbar.classList.add("navbar--dark");
+//   } else {
+//     navbar.classList.remove("navbar--dark");
+//   }
+// });
+
 // Make navbar trasparent when it is on the top
-const navbar = document.querySelector("#navbar");
-const navbarHeight = navbar.getBoundingClientRect().height;
+const about = document.querySelector("#about");
+const aboutHeight = about.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
   console.log(window.scrollY);
-  console.log(`navbarHeight: ${navbarHeight}`);
-  if (window.scrollY > navbarHeight) {
+  console.log(`aboutHeight: ${aboutHeight}`);
+  if (window.scrollY > aboutHeight - 150) {
     navbar.classList.add("navbar--dark");
   } else {
     navbar.classList.remove("navbar--dark");
