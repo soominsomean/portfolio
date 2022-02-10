@@ -45,6 +45,14 @@ navbarMenu.addEventListener("click", (event) => {
 // scrollIntoView("#contact");
 // });
 
+//Make Home transparent as we scroll down
+const home = document.querySelector(".home__container");
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener("scroll", () => {
+  home.style.opacity = 1 - window.scrollY / homeHeight;
+});
+
+// Make scroll into view into a function as we expect it to be reused multiple times
 function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({ behavior: "smooth" });
