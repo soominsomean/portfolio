@@ -220,21 +220,22 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn active">
+          <button class="category__btn active" data-filter="*">
             All<span class="category__count">5</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="data-science">
             Data Science<span class="category__count">3</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="front-end">
             Front End<span class="category__count">2</span>
           </button>
         </div>
         <div class="work__projects">
           <a
             href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
-            class="project__img"
+            class="project"
             target="blank"
+            data-type="*"
           >
             <img src="images/projects/youtube.png" alt="YouTube" />
             <div class="project__description">
@@ -244,8 +245,9 @@
           </a>
           <a
             href="https://blog.naver.com/kimjane3000"
-            class="project__img"
+            class="project"
             target="blank"
+            data-type="data-science"
           >
             <img src="images/projects/youtube.png" alt="YouTube" />
             <div class="project__description">
@@ -255,8 +257,9 @@
           </a>
           <a
             href="https://www.youtube.com/channel/UChwZl5NAjWUUCuPySs4PB7g/featured"
-            class="project__img"
+            class="project"
             target="blank"
+            data-type="front-end"
           >
             <img src="images/projects/youtube.png" alt="YouTube" />
             <div class="project__description">

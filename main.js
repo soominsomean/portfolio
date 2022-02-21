@@ -62,10 +62,35 @@ document.addEventListener("scroll", () => {
   }
 });
 
-//Hanel clikco n the "arrow up button"
+//Hanel click on the "arrow up button"
 
 arrowUp.addEventListener("click", () => {
   scrollIntoView("#home");
+});
+
+//Projects
+const workBtnContainer = document.querySelector(".work__categories");
+const projectContainer = document.querySelector(".work__projects");
+const projects = document.querySelectorAll(".project");
+
+workBtnContainer.addEventListener("click", (e) => {
+  const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
+  if (filter == null) {
+    return;
+  }
+  projectContainer.classList.add("anim-out");
+  setTimeout(() => {
+    projects.forEach((project) => {
+      console.log(project.dataset.type);
+
+      if (filter === "*" || filter === project.dataset.type) {
+        project.classList.remove("invisible");
+      } else {
+        project.classList.add("invisible");
+      }
+    });
+    projectContainer.classList.remove("anim-out");
+  }, 300);
 });
 
 // Make scroll into view into a function as we expect it to be reused multiple times
