@@ -19,7 +19,7 @@ const aboutHeight = about.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
   console.log(window.scrollY);
   console.log(`aboutHeight: ${aboutHeight}`);
-  if (window.scrollY > aboutHeight - 150) {
+  if (window.scrollY > aboutHeight) {
     navbar.classList.add("navbar--dark");
   } else {
     navbar.classList.remove("navbar--dark");
